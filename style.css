@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(230, 234, 235);
+}
+.title{
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.profile{
+    float:left;
+    padding-right: 10px;
+    height: 90px;
+    width: 130px;
+}
+
+.full{
+    border-radius: 50%;
+    height : 30px;
+    width : 30px
+}
+
+.empty{
+    border-radius: 50%;
+    height : 30px;
+    width : 30px
+}
+.client{
+    height : 100px;
+    margin-bottom: 5px;
+}
+.customer{
+    font-weight: bold;
+}
+.SUBSCRIBE{
+    width : 30%;
+    text-align:center;
+    justify-content: center;
+    color : white;
+    background-color: rgb(18, 194, 224);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding : 20px,20px;
+}
+.email-button{
+    width : 30%;
+    padding : 20px,20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+}
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width : 45%;
+    background-color: white;
+    border-radius: 9px;
+}
+#client{
+    width:85%;
+}
+.tick {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.buttons{
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    justify-content: center;
+}
+.email{
+    width:70%;
+    height:26px;
+    font-family: Poppins,sans-serif;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.submit-email{
+    width:72%;
+    height:30px;
+    background-color: rgb(32, 131, 189);
+    color: white;
+    text-transform: uppercase;
+    font-family: Poppins,sans-serif;
+    height: 40px;
+    border: 1px solid rgb(32, 131, 189);
+    border-radius: 7px;
+}
+.submit{
+    margin-top: 10px;
+}
+.remarks{
+    font-size: 13px;
+    color:gray;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.about , .title p{
+    font-size:13px;
+}
+.title h1{
+    font-size: 24px;
+}
